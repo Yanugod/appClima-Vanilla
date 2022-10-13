@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="icon" href="./assets/img/iconclima.png">
+    <title>App Clima</title>
+</head>
+<body>
+    <section class="clima__container">
+        <div class="clima__container-dates">
+            <h2>Buscador de Clima</h2>
+        </div>
+
+        <form action="#" class="clima__container-inputs">
+            <input type="text" placeholder="¿Como se llama la Ciudad?" autocomplete="off" id="inputCityName">
+            <select name="" id="select" class="inputCountryName">
+                <option value="">Seleccione el país</option>
+                <option value="">DO</option>
+                <option value="">US</option>
+                <option value="">PR</option>
+                <option value="">MX</option>
+                <option value="">BR</option>
+                <option value="">AR</option>
+                <option value="">VE</option>
+            </select>
+            <input type="submit" value="Buscar" class="btnSearch">
+        </form>
+
+        <p class="showError" id="clima__ShowError"></p>
+    </section>
+
+    <script src="./assets/app.js"></script>
+</body>
+</html>
