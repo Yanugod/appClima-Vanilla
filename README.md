@@ -1,1 +1,1 @@
-# appClima-Vanilla
+# Proyecto - Buscador de Clima
